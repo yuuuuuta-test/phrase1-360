@@ -59,8 +59,8 @@ document.getElementById("start-button").addEventListener("click", () => {
     const startNumber = parseInt(document.getElementById("start-number").value);
     const endNumber = parseInt(document.getElementById("end-number").value);
 
-    if (startNumber > endNumber || startNumber < 1 || endNumber > 180) {
-        alert("正しい範囲を入力してください！(1-180)");
+    if (startNumber > endNumber || startNumber < 1 || endNumber > 360) {
+        alert("正しい範囲を入力してください！(1-360)");
         return;
     }
 
